@@ -344,7 +344,9 @@
       btnMenu.addEventListener('click', ()=>{
         navabar.classList.toggle('active')
       })
-      
+      window.onscroll = () =>{
+       navabar.classList.remove('active');
+} 
     </script>
 
 </body>
