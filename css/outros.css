@@ -1,0 +1,136 @@
+.packages{
+background: #fff;
+
+}
+
+.container-pakeges{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.container-pakeges .card{
+    box-shadow: 1px 1px 11px 2px #2222223b;
+    text-align: center;
+    border-radius: .9rem .9rem 1.2rem 1.2rem;
+    padding: 0 0 3rem 0;
+}
+
+.container-pakeges .card .header{
+    height: 120px;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.stars{
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+    font-size: 2rem;
+    color: #fac90b;
+
+}
+
+.container-pakeges .card .header img{
+    border-radius: .9rem .9rem 0 0;
+    box-shadow: 1px 1px 11px 2px #22222229;
+}
+.container-pakeges .card .header h2{
+  position: absolute;
+  top: 2%;
+  color: rgb(237, 182, 0);
+  left: 4%;
+  text-shadow: 5px 5px 9px 9px #1111;
+  font-size: 2rem;
+  
+}
+.container-pakeges .card  p span:nth-child(1){
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #111111a9;
+  }
+  .container-pakeges .card  p span:nth-child(2){
+    font-size: 1.8rem;
+    font-weight: 600;
+    transform: translateY(-702px);
+  }
+  .container-pakeges .card  p span:nth-child(3){
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+  }
+
+  .container-pakeges .card ul{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111111e1;
+  }
+  .container-pakeges .card a{
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    color: #222;
+    display: inline-block;
+    padding: .6rem 1.7rem;
+    background: #fac90b;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: .3rem;
+    letter-spacing: .2rem;
+    font-family: cursive;
+  }
+  .contact{
+    background: #fff;
+
+  }
+  .contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .capa{
+    height: 350px;
+    width: 700px;
+  }
+
+  .contact  .content{
+    width: 700px;
+    padding-top: 3rem;
+    background: #04154b;
+    padding: 4rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+  }
+
+  .contact  .content a{
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: .5rem;
+  }
+@media (max-width: 789px) {
+    #bazza{
+        display: none;
+    }
+    .container-pakeges{
+        grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+       
+    }
+
+    .capa, .contact .content{
+        width: 100%;
+    }
+
+    .contact  .content{
+        flex-direction: column;
+      }
+}
